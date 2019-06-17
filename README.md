@@ -1,4 +1,4 @@
-# git-webhooks-tester
+# Hygie Tester
 
 A CLI tester for Hygie rules.
 
