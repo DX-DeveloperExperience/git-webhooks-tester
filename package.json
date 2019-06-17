@@ -1,7 +1,7 @@
 {
-  "name": "git-webhooks-tester",
+  "name": "hygie-tester",
   "version": "0.0.0",
-  "description": "A CLI tester for Git-Webhooks rules",
+  "description": "A CLI tester for Hygie rules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

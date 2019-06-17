@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const axios = require('axios');
 
-const git_webhooks = ' http://40b4da00.ngrok.io/webhook';
+const hygie = 'http://URL/webhook';
 
 const choice = async () => {
   return await inquirer
@@ -35,7 +35,7 @@ const choice = async () => {
     .then(async answers => {
       const data = await require('./events/' + answers.event)(answers.git);
       axios
-        .post(git_webhooks, data, {
+        .post(hygie, data, {
           headers: {
             'Content-Type': 'application/json',
             'X-Gitlab-Token': 'CfgwQp7KDaDAtVT91i1V',
