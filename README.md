@@ -1,10 +1,10 @@
 # git-webhooks-tester
 
-A CLI tester for Git-Webhooks rules.
+A CLI tester for Hygie rules.
 
 ## Goal
 
-This tool allows you to send customize Git Events to your Git-Webhooks local app, for testing purpose.
+This tool allows you to send customize Git Events to your Hygie local app, for testing purpose.
 
 ## Getting Started
 
@@ -17,4 +17,4 @@ Events availables:
 - NewIssue,
 - NewPR,
 - IssueComment,
-- PRComment,
+- PRComment.
